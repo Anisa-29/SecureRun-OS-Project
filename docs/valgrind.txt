@@ -1,0 +1,11 @@
+==57741== Memcheck, a memory error detector
+==57741== Command: ./securerun tests/ac.c tests/input.txt tests/expected_sum.txt
+
+ID  SUBMISSION             VERDICT                    CPU(ms)   MEM(KB)
+---------------------------------------------------------------------------
+1   ac.c                   Accepted                      50.2       512
+==57741== HEAP SUMMARY:
+==57741==     in use at exit: 0 bytes in 0 blocks
+==57741==   total heap usage: 43 allocs, 43 frees, 4,391,440 bytes allocated
+==57741== All heap blocks were freed -- no leaks are possible
+==57741== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

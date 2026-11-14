@@ -1,0 +1,20 @@
+ID  SUBMISSION             VERDICT                    CPU(ms)   MEM(KB)
+---------------------------------------------------------------------------
+1   ac.c                   Accepted                       4.7       256
+2   wa.c                   Wrong Answer                   4.1       256
+    -> output differs from expected
+3   tle.c                  Time Limit Exceeded         1976.2       256
+    -> wall-clock limit 4s exceeded
+4   sleeper.c              Time Limit Exceeded            3.7       256
+    -> wall-clock limit 4s exceeded
+5   mle.c                  Memory Limit Exceeded        268.8     65536
+    -> killed by cgroup OOM (limit 64 MB)
+6   ole.c                  Output Limit Exceeded          8.6       256
+    -> output exceeded 1048576 bytes
+7   re.c                   Runtime Error                  4.5       256
+    -> killed by signal 11 (Segmentation fault)
+8   ce.c                   Compile Error                  0.0         0
+    -> sub.c: In function 'main': sub.c:1:17: error: unknown type name 'this'  (compiler message)
+9   fs.c                   Accepted                       4.4       512
+10  forkbomb.c             Resource Limit Exceeded      450.8     20704
+    -> pids.max (32) hit: fork bomb / too many processes
